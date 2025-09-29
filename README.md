@@ -1,15 +1,5 @@
 # Case Técnico iFood - Arquitetura de Dados
 
-## Estrutura do Repositório
-
-```
-ifood-case/
-├── src/            # Código fonte da solução
-├── analysis/       # Scripts/Notebooks com as respostas das perguntas
-├── README.md
-└── requirements.txt
-```
-
 ## Como Executar
 
 ### Pré-requisitos
@@ -20,15 +10,15 @@ ifood-case/
 ### 1. Clone o Repositório
 
 ```bash
-git clone <URL do repositório>
-cd ifood-case
+git clone https://github.com/Valmisonds/ifood_tech_challenge.git
+cd ifood_tech_challenge
 ```
 
 ### 2. Instale as Dependências
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
+source venv/bin/activate  # use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
@@ -55,4 +45,9 @@ python src/process_data.py
 
 ```bash
 jupyter lab analysis/ifood_analysis.ipynb
+
+
 ```
+
+
+
